@@ -4,14 +4,14 @@
 
 namespace logger {
     void log_info(const std::string& msg) {
-        std::cout << "[INFO] " << msg << std::endl;
+        std::cout << "[INFO]: " << msg << std::endl;
     }
 
     void log_debug(const std::string& msg) {
-        std::cout << "[DEBUG] " << msg << std::endl;
+        std::cout << "[DEBUG]: " << msg << std::endl;
     }
 
     void log_error(const std::string& msg) {
-        std::cerr << "[ERROR] " << msg << std::endl;
+        std::cerr << "[ERROR]: " << msg << std::endl;
     }
 }
